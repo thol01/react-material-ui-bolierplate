@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import RaisedButton from 'material-ui/lib/raised-button';
 
-export default class App extends Component {
-  render() {
-    return (
-      <h1>Hello, world!!!</h1>
-    );
-  }
-}
+export default () => (
+    <RaisedButton label="Default"/>
+);
